@@ -174,6 +174,25 @@ onClick() // Listen onClick event
 onLongClick() // Listen onLongClick event
 onContextClick() // Listen onContextClick event
 ```
+
+## Independence
+
+Just use base(not include any androidx independence)
+```gradle
+    janko-base
+```
+
+Use appcampat
+```gradle
+    janko-appcompat
+```
+
+Use androidx individual layout or view package
+```gradle
+     janko-androidx-layout
+     janko-androidx-view
+```
+
 ## License
 
 **Janko** is under MIT license. See the [LICENSE](LICENSE) file for more info.
