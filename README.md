@@ -175,22 +175,22 @@ onLongClick() // Listen onLongClick event
 onContextClick() // Listen onContextClick event
 ```
 
-## Independence
+## Installation
 
 Just use base(not include any androidx independence)
 ```gradle
-    janko-base
+    implementation 'com.bitsecho.janko:janko-base:1.0.1'
 ```
 
 Use appcampat
 ```gradle
-    janko-appcompat
+    implementation 'com.bitsecho.janko:janko-appcompat:1.0.1'
 ```
 
 Use androidx individual layout or view package
 ```gradle
-     janko-androidx-layout
-     janko-androidx-view
+     implementation 'com.bitsecho.janko:janko-androidx-layout:1.0.1'
+     implementation 'com.bitsecho.janko:janko-androidx-view:1.0.1'
 ```
 
 ## License
