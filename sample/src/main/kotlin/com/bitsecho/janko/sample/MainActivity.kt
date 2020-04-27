@@ -8,7 +8,12 @@ import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.LinearLayoutCompat
 import androidx.appcompat.widget.Toolbar
-import com.bitsecho.janko.*
+import com.bitsecho.janko.appcompat.alert
+import com.bitsecho.janko.appcompat.listAlert
+import com.bitsecho.janko.appcompat.lparams
+import com.bitsecho.janko.base.*
+import com.bitsecho.janko.base.matchParent
+import com.bitsecho.janko.base.wrapContent
 
 class MainActivity : AppCompatActivity() {
 
@@ -125,8 +130,6 @@ class MainUI: UI {
                         topMargin = dip(8)
                         bottomMargin = dip(8)
                     }.into(this)
-
-
 
                 }.lparams {
                     width = wrapContent

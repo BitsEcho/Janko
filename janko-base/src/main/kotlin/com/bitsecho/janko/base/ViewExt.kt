@@ -1,4 +1,4 @@
-package com.bitsecho.janko
+package com.bitsecho.janko.base
 
 import android.content.Context
 import android.view.MenuItem

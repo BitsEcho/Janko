@@ -1,4 +1,4 @@
-package com.bitsecho.janko
+package com.bitsecho.janko.base
 
 import android.app.Activity
 import android.content.ClipData
