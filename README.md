@@ -88,6 +88,8 @@ class SomeActivity : AppCompatActivity() {
 
 Layout Structure Sample
 
+<img src="screenshot/sample.png" width="30%" height="30%" />
+
 ```kotlin
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
