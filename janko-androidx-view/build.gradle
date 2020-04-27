@@ -1,0 +1,38 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'com.novoda.bintray-release'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+
+    defaultConfig {
+        minSdkVersion 23
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation "androidx.viewpager2:viewpager2:1.0.0"
+    implementation project(path: ':janko-base')
+}
+
+publish {
+    userOrg = 'bitsecho'
+    groupId = 'com.bitsecho.janko'
+    artifactId = 'janko-androidx-layout'
+    publishVersion = '1.0.0'
+    desc = 'A Kotlin DSL native Layout and native UI tools library with Androidx. Androidx Views.'
+    website = 'https://github.com/BitsEcho/Janko'
+}

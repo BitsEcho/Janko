@@ -1,0 +1,6 @@
+rootProject.name='Janko'
+include ':sample'
+include ':janko-base'
+include ':janko-androidx-layout'
+include ':janko-androidx-view'
+include ':janko-appcompat'

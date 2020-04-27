@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/one"
+        android:icon="@drawable/ic_exposure_plus_1_24px"
+        android:title="One"/>
+    <item android:id="@+id/two"
+        android:icon="@drawable/ic_exposure_plus_2_24px"
+        android:title="Two" />
+</menu>
