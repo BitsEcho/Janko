@@ -172,6 +172,8 @@ onClick()                   // Listen onClick event
 onLongClick()               // Listen onLongClick event
 onContextClick()            // Listen onContextClick event
 ```
+## License
 
+**Then** is under MIT license. See the [LICENSE](LICENSE) file for more info.
 
 
