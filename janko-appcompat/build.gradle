@@ -11,7 +11,7 @@ android {
         minSdkVersion 23
         targetSdkVersion 29
         versionCode 1
-        versionName "1.0.0"
+        versionName "1.0.1"
     }
 
     sourceSets {
@@ -31,7 +31,7 @@ publish {
     userOrg = 'bitsecho'
     groupId = 'com.bitsecho.janko'
     artifactId = 'janko-appcompat'
-    publishVersion = '1.0.0'
+    publishVersion = '1.0.1'
     desc = 'A Kotlin DSL native Layout and native UI tools library with Androidx. AppCompat Components.'
     website = 'https://github.com/BitsEcho/Janko'
 }

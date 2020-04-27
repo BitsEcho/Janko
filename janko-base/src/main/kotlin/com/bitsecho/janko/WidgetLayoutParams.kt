@@ -7,7 +7,7 @@ import android.widget.*
 const val matchParent = ViewGroup.LayoutParams.MATCH_PARENT
 const val wrapContent = ViewGroup.LayoutParams.WRAP_CONTENT
 
-fun <T: View> T.lparams(block: LinearLayout.LayoutParams.() -> Unit): T {
+fun <T: View> T.lparamsw(block: LinearLayout.LayoutParams.() -> Unit): T {
     val layoutParams = LinearLayout.LayoutParams(wrapContent, wrapContent)
     block(layoutParams)
     this.layoutParams = layoutParams
