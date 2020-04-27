@@ -1,4 +1,4 @@
-package com.bitsecho.janko
+package com.bitsecho.janko.sample
 
 import android.content.Context
 import android.os.Bundle
@@ -11,14 +11,13 @@ import androidx.appcompat.widget.Toolbar
 import com.bitsecho.anko.alert
 import com.bitsecho.anko.listAlert
 import com.bitsecho.anko.lparams
+import com.bitsecho.janko.*
 
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         MainUI().setContentView(this)   // Equivalent: this.setContentView(view)
-
         window.statusBarColor = getColor(R.color.colorPrimaryDark)
         val toolbar = find<Toolbar>(R.id.toolbar)   // Equivalent: val toolbar = findViewById<Toolbar>(R.id.toolbar)
         setSupportActionBar(toolbar)

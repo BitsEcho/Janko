@@ -153,26 +153,26 @@ class MainUI: UI {
 ### Useful Tools
 ```kotlin
 // Context or View
-dip(px)	// Convert pixel to density pixel
-matchParent 	// Equivalent to: ViewGroup.LayoutParams.MATCH_PARENT
-wrapContent	// Equivalent to: ViewGroup.LayoutParams.WRAP_CONTENT
+dip(px) // Convert pixel to density pixel
+matchParent // Equivalent to: ViewGroup.LayoutParams.MATCH_PARENT
+wrapContent // Equivalent to: ViewGroup.LayoutParams.WRAP_CONTENT
 ```
 ```kotlin
 // Context
-toast(text)                 // Equivalent to: Toast.makeText(context, text, duration).show()
-copy(text)                  // Copy text to clipboard
-intentFor<SomeActivity>()   // create Intent. Use startActivity() easily
+toast(text) // Equivalent to: Toast.makeText(context, text, duration).show()
+copy(text) // Copy text to clipboard
+intentFor<SomeActivity>() // create Intent. Use startActivity() easily
 
 // Context, by Androidx
-alert {}					// Show alert dialog
-listAlert(items) {} 		// Show list alert dialog
+alert {} // Show alert dialog
+listAlert(items) {} // Show list alert dialog
 ```
 ```kotlin
 // View
-someView.popupMenu()        // Make popupMenu
-onClick()                   // Listen onClick event
-onLongClick()               // Listen onLongClick event
-onContextClick()            // Listen onContextClick event
+someView.popupMenu() // Make popupMenu
+onClick() // Listen onClick event
+onLongClick() // Listen onLongClick event
+onContextClick() // Listen onContextClick event
 ```
 ## License
 
