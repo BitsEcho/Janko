@@ -8,9 +8,9 @@ import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.LinearLayoutCompat
 import androidx.appcompat.widget.Toolbar
-import com.bitsecho.anko.alert
-import com.bitsecho.anko.listAlert
-import com.bitsecho.anko.lparams
+import com.bitsecho.janko.alert
+import com.bitsecho.janko.listAlert
+import com.bitsecho.janko.lparams
 import com.bitsecho.janko.*
 
 class MainActivity : AppCompatActivity() {

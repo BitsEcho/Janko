@@ -1,4 +1,4 @@
-package com.bitsecho.anko
+package com.bitsecho.janko
 
 import android.content.Context
 import android.content.DialogInterface

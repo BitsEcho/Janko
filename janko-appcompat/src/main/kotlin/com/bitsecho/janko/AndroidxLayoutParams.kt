@@ -1,4 +1,4 @@
-package com.bitsecho.anko
+package com.bitsecho.janko
 
 import android.view.View
 import androidx.appcompat.widget.ActionBarOverlayLayout
@@ -6,7 +6,6 @@ import androidx.appcompat.widget.LinearLayoutCompat
 import androidx.appcompat.widget.Toolbar
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.viewpager.widget.ViewPager
-import com.bitsecho.janko.wrapContent
 
 fun <T: View> T.lparams(block: LinearLayoutCompat.LayoutParams.() -> Unit): T {
     val layoutParams = LinearLayoutCompat.LayoutParams(wrapContent, wrapContent)
