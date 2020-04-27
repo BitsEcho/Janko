@@ -174,6 +174,6 @@ onContextClick()            // Listen onContextClick event
 ```
 ## License
 
-**Then** is under MIT license. See the [LICENSE](LICENSE) file for more info.
+**Janko** is under MIT license. See the [LICENSE](LICENSE) file for more info.
 
 
