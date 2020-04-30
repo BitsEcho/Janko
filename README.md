@@ -179,18 +179,18 @@ onContextClick() // Listen onContextClick event
 
 Just use base(not include any androidx independence)
 ```gradle
-    implementation 'com.bitsecho.janko:janko-base:1.0.1'
+    implementation 'com.bitsecho.janko:janko-base:1.0.2'
 ```
 
 Use appcampat
 ```gradle
-    implementation 'com.bitsecho.janko:janko-appcompat:1.0.1'
+    implementation 'com.bitsecho.janko:janko-appcompat:1.0.2'
 ```
 
 Use androidx individual layout or view package
 ```gradle
-     implementation 'com.bitsecho.janko:janko-androidx-layout:1.0.1'
-     implementation 'com.bitsecho.janko:janko-androidx-view:1.0.1'
+     implementation 'com.bitsecho.janko:janko-androidx-layout:1.0.2'
+     implementation 'com.bitsecho.janko:janko-androidx-view:1.0.2'
 ```
 
 ## License
